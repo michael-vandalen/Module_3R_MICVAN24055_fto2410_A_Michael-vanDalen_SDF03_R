@@ -3,20 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Meow</title>
+    <title>Meow Awesome Portfolio Site🎸</title>
   </head>
 
   <!--Header and Navigation-->
   <body>
-    <header>
+    <header id="header">
       <h1>CodeSpace Cat's Portfolio🎨</h1>
       <nav id="navigation-menu">
         <!-- Navigation Menu -->
         <ul>
-          <li>About me👏</li>
-          <li>Skills⚒️</li>
-          <li>Portfolio📸</li>
-          <li>Contact👍</li>
+          <li><a href="#about-me">About me👏</a></li>
+          <li><a href="my-skills">Skills⚒️</a></li>
+          <li><a href="portfolio">Portfolio📸</a></li>
+          <li><a href="contact-me">Contact👍</a></li>
         </ul>
       </nav>
     </header>
@@ -83,5 +83,27 @@
         </tbody>
       </table>
     </section>
+
+    <!--Contact Me Section-->
+    <section id="contact-me">
+      <h2>Contact Me</h2>
+      <form action="" method="GET">
+        <label for="username">Name:</label>
+        <input type="text" id="username" />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+
+        <label for="message">Message:</label>
+        <textarea id="message"></textarea>
+
+        <input type="submit" />
+      </form>
+    </section>
+
+    <!--Footer-->
+    <footer id="footer">
+      <p>© 2024 CodeSpace Cat. All rights reserved.</p>
+    </footer>
   </body>
 </html>
